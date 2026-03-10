@@ -1,0 +1,33 @@
+<svg width="450" height="195" viewBox="0 0 450 195" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg {{ fill: transparent; stroke: #2563EB; stroke-width: 1; rx: 8; }}
+      .title {{ font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 18px; font-weight: bold; fill: #2563EB; }}
+      .text {{ font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 14px; font-weight: 500; fill: #777777; }}
+      .val {{ font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 14px; font-weight: bold; fill: #777777; }}
+    </style>
+  </defs>
+  <rect class="bg" x="1" y="1" width="448" height="193" />
+  <text class="title" x="30" y="35">Debjanimandal's GitHub Stats</text>
+  
+  <g transform="translate(30, 65)">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#2563EB" stroke-width="2"><path d="M8 2L8 14M2 8L14 8" stroke-linecap="round"/></svg>
+    <text class="text" x="30" y="13">Total Stars Earned:</text>
+    <text class="val" x="380" y="13" text-anchor="end">12</text>
+  </g>
+  <g transform="translate(30, 95)">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#2563EB" stroke-width="2"><circle cx="8" cy="8" r="6" stroke-linecap="round"/></svg>
+    <text class="text" x="30" y="13">Total Commits (2025):</text>
+    <text class="val" x="380" y="13" text-anchor="end">156</text>
+  </g>
+  <g transform="translate(30, 125)">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#2563EB" stroke-width="2"><path d="M2 14L8 2L14 14" stroke-linecap="round"/></svg>
+    <text class="text" x="30" y="13">Total PRs:</text>
+    <text class="val" x="380" y="13" text-anchor="end">4</text>
+  </g>
+  <g transform="translate(30, 155)">
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#2563EB" stroke-width="2"><rect x="2" y="2" width="12" height="12" rx="2" stroke-linecap="round"/></svg>
+    <text class="text" x="30" y="13">Total Issues:</text>
+    <text class="val" x="380" y="13" text-anchor="end">2</text>
+  </g>
+</svg>

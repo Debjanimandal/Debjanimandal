@@ -1,0 +1,25 @@
+<svg width="400" height="150" viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: transparent; stroke: #2563EB; stroke-width: 1; rx: 8; }
+      .title { font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 18px; font-weight: bold; fill: #2563EB; }
+      .desc { font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 13px; fill: #777777; }
+      .tech { font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 12px; font-weight: 500; fill: #777777; }
+    </style>
+  </defs>
+  <rect class="bg" x="1" y="1" width="398" height="148" />
+  
+  <svg x="20" y="20" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+  </svg>
+  
+  <text class="title" x="50" y="36">HireNexa</text>
+  
+  <text class="desc" x="20" y="65">Decentralized recruitment platform on Celo that</text>
+  <text class="desc" x="20" y="85">uses AI to turn GitHub activity into verifiable NFTs.</text>
+  
+  <circle cx="26" cy="120" r="6" fill="#3178c6" />
+  <text class="tech" x="40" y="124">TypeScript</text>
+  
+  <text class="tech" x="120" y="124">AI • Celo • Smart Contracts</text>
+</svg>

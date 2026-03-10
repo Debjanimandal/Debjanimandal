@@ -1,0 +1,35 @@
+<svg width="300" height="195" viewBox="0 0 300 195" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg {{ fill: transparent; stroke: #2563EB; stroke-width: 1; rx: 8; }}
+      .title {{ font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 18px; font-weight: bold; fill: #2563EB; }}
+      .text {{ font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 14px; font-weight: 500; fill: #777777; }}
+    </style>
+  </defs>
+  <rect class="bg" x="1" y="1" width="298" height="193" />
+  <text class="title" x="30" y="35">Most Used Languages</text>
+  
+  <g transform="translate(30, 65)">
+    <circle cx="6" cy="6" r="6" fill="#3178c6" />
+    <text class="text" x="20" y="11">TypeScript 42%</text>
+    <rect x="150" y="3" width="100" height="8" rx="4" fill="#3178c6" />
+  </g>
+  
+  <g transform="translate(30, 95)">
+    <circle cx="6" cy="6" r="6" fill="#3572A5" />
+    <text class="text" x="20" y="11">Python 35%</text>
+    <rect x="150" y="3" width="80" height="8" rx="4" fill="#3572A5" />
+  </g>
+  
+  <g transform="translate(30, 125)">
+    <circle cx="6" cy="6" r="6" fill="#e34c26" />
+    <text class="text" x="20" y="11">HTML 15%</text>
+    <rect x="150" y="3" width="35" height="8" rx="4" fill="#e34c26" />
+  </g>
+  
+  <g transform="translate(30, 155)">
+    <circle cx="6" cy="6" r="6" fill="#f1e05a" />
+    <text class="text" x="20" y="11">JavaScript 8%</text>
+    <rect x="150" y="3" width="15" height="8" rx="4" fill="#f1e05a" />
+  </g>
+</svg>

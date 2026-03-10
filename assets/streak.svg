@@ -1,0 +1,29 @@
+<svg width="450" height="195" viewBox="0 0 450 195" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg {{ fill: transparent; stroke: #2563EB; stroke-width: 1; rx: 8; }}
+      .title {{ font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 14px; fill: #777777; }}
+      .val {{ font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 28px; font-weight: bold; fill: #2563EB; }}
+      .sub {{ font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 11px; fill: #777777; }}
+    </style>
+  </defs>
+  <rect class="bg" x="1" y="1" width="448" height="193" />
+  
+  <g transform="translate(75, 50)" text-anchor="middle">
+    <text class="title" x="0" y="0">Total Contributions</text>
+    <text class="val" x="0" y="40">210</text>
+    <text class="sub" x="0" y="65">Jan 14, 2024 - Present</text>
+  </g>
+  
+  <g transform="translate(225, 50)" text-anchor="middle">
+    <text class="title" x="0" y="0">Current Streak</text>
+    <text class="val" x="0" y="40">5</text>
+    <text class="sub" x="0" y="65">Oct 3 - Oct 8</text>
+  </g>
+  
+  <g transform="translate(375, 50)" text-anchor="middle">
+    <text class="title" x="0" y="0">Longest Streak</text>
+    <text class="val" x="0" y="40">12</text>
+    <text class="sub" x="0" y="65">Sep 1 - Sep 12</text>
+  </g>
+</svg>
