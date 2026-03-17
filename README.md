@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi there, I'm Debjani
+# Hi there, I'm Debjani Mandal
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2563EB&center=true&vCenter=true&width=600&lines=3rd+Year+AI%2FML+Student;Machine+Learning+Developer;Computer+Vision+Enthusiast" alt="Typing SVG" />
 
