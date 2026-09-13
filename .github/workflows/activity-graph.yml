@@ -1,0 +1,123 @@
+﻿name: Generate Activity Graph
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate-activity:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate Activity SVG from real GitHub data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 << 'PYEOF'
+          import urllib.request, json, os
+
+          token = os.environ['GITHUB_TOKEN']
+          username = 'Debjanimandal'
+
+          query = '{ user(login: "' + username + '") { contributionsCollection { contributionCalendar { weeks { contributionDays { contributionCount date } } } } } }'
+
+          try:
+              req = urllib.request.Request(
+                  'https://api.github.com/graphql',
+                  data=json.dumps({'query': query}).encode(),
+                  headers={
+                      'Authorization': f'Bearer {token}',
+                      'Content-Type': 'application/json',
+                      'User-Agent': 'activity-graph-bot'
+                  }
+              )
+              with urllib.request.urlopen(req, timeout=15) as r:
+                  data = json.loads(r.read())
+              weeks = data['data']['user']['contributionsCollection']['contributionCalendar']['weeks']
+              weeks = weeks[-30:]
+              weekly = [sum(d['contributionCount'] for d in w['contributionDays']) for w in weeks]
+              max_val = max(weekly) if any(v > 0 for v in weekly) else 1
+              peak_label = f'Peak: {max_val} contributions/week'
+          except Exception as e:
+              print(f'API error: {e}')
+              weekly = [0] * 30
+              max_val = 1
+              peak_label = 'Fetching data...'
+
+          W, H = 495, 195
+          chart_bottom = 172
+          chart_top    = 58
+          chart_h      = chart_bottom - chart_top
+          margin       = 20
+          n            = len(weekly)
+          bw           = (W - 2 * margin) // n - 2
+
+          bars = []
+          for i, v in enumerate(weekly):
+              x  = margin + i * (bw + 2)
+              h  = max(int((v / max_val) * chart_h), 2)
+              y  = chart_bottom - h
+              op = round(0.25 + 0.75 * (v / max_val), 2)
+              op2 = round(op * 0.45, 2)
+              dur = round(1.4 + (i % 8) * 0.15, 2)
+              glow = ' filter="url(#glow)"' if v > max_val * 0.4 else ''
+              bars.append(
+                  f'<rect x="{x}" y="{y}" width="{bw}" height="{h}" rx="2"'
+                  f' fill="url(#bg)"{glow} opacity="{op}">'
+                  f'<animate attributeName="opacity" values="{op};{op2};{op}"'
+                  f' dur="{dur}s" repeatCount="indefinite"/></rect>'
+              )
+
+          grid_y1 = chart_top + chart_h // 3
+          grid_y2 = chart_top + 2 * chart_h // 3
+
+          svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}">
+            <defs>
+              <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" style="stop-color:#c084fc;stop-opacity:1"/>
+                <stop offset="100%" style="stop-color:#5b21b6;stop-opacity:0.6"/>
+              </linearGradient>
+              <filter id="glow">
+                <feGaussianBlur stdDeviation="2.5" result="b"/>
+                <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+              </filter>
+            </defs>
+            <rect width="{W}" height="{H}" rx="10" fill="#0D1117"/>
+            <rect x="1" y="1" width="{W-2}" height="3" rx="2" fill="#a855f7" opacity="0.9"/>
+            <rect x="1" y="1" width="{W-2}" height="{H-2}" rx="9" fill="none" stroke="#a855f7" stroke-width="1">
+              <animate attributeName="stroke-opacity" values="0.2;0.7;0.2" dur="3s" repeatCount="indefinite"/>
+            </rect>
+            <line x1="{margin}" y1="{grid_y1}" x2="{W-margin}" y2="{grid_y1}" stroke="#a855f7" stroke-width="0.3" opacity="0.15"/>
+            <line x1="{margin}" y1="{grid_y2}" x2="{W-margin}" y2="{grid_y2}" stroke="#a855f7" stroke-width="0.3" opacity="0.15"/>
+            <line x1="{margin}" y1="{chart_bottom}" x2="{W-margin}" y2="{chart_bottom}" stroke="#a855f7" stroke-width="0.5" opacity="0.35"/>
+            {''.join(bars)}
+            <text x="25" y="26" font-family="Segoe UI,sans-serif" font-size="13" fill="#fff" font-weight="700">Contribution Activity</text>
+            <text x="25" y="42" font-family="Segoe UI,sans-serif" font-size="10" fill="#a855f7">Last 30 weeks  —  {peak_label}</text>
+            <text x="{W-margin}" y="{H-8}" font-family="Segoe UI,sans-serif" font-size="9" fill="#444" text-anchor="end">github.com/Debjanimandal</text>
+            <circle cx="8" cy="8" r="2" fill="#a855f7"><animate attributeName="opacity" values="0.1;1;0.1" dur="2s" repeatCount="indefinite"/></circle>
+            <circle cx="{W-8}" cy="8" r="2" fill="#a855f7"><animate attributeName="opacity" values="0.1;1;0.1" dur="2s" repeatCount="indefinite" begin="0.5s"/></circle>
+            <circle cx="8" cy="{H-8}" r="2" fill="#a855f7"><animate attributeName="opacity" values="0.1;1;0.1" dur="2s" repeatCount="indefinite" begin="1s"/></circle>
+            <circle cx="{W-8}" cy="{H-8}" r="2" fill="#a855f7"><animate attributeName="opacity" values="0.1;1;0.1" dur="2s" repeatCount="indefinite" begin="1.5s"/></circle>
+          </svg>"""
+
+          os.makedirs('assets', exist_ok=True)
+          with open('assets/real_activity.svg', 'w') as f:
+              f.write(svg)
+          print(f'Done. Weeks={len(weekly)}, Max={max_val}, Data={weekly}')
+          PYEOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/real_activity.svg
+          git diff --cached --quiet || git commit -m "chore: update real activity graph [skip ci]"
+          git push
