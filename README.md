@@ -199,13 +199,13 @@
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=Debjanimandal&show_icons=true&title_color=a855f7&icon_color=a855f7&text_color=c0c0c0&bg_color=0D1117&hide_border=true&rank_icon=github&include_all_commits=true" width="49%" alt="GitHub Stats" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Debjanimandal&background=0D1117&hide_border=true&ring=a855f7&fire=a855f7&currStreakLabel=a855f7&sideLabels=a855f7&dates=c0c0c0" width="49%" alt="GitHub Streak" />
+<img src="assets/github_stats.svg" width="49%" alt="GitHub Stats"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Debjanimandal&background=0D1117&hide_border=true&ring=a855f7&fire=a855f7&currStreakLabel=a855f7&sideLabels=a855f7&dates=c0c0c0" width="49%" alt="GitHub Streak"/>
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Debjanimandal&layout=compact&title_color=a855f7&text_color=c0c0c0&bg_color=0D1117&hide_border=true&langs_count=8" width="49%" alt="Top Languages" />
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Debjanimandal&bg_color=0D1117&color=a855f7&line=a855f7&point=ffffff&hide_border=true&area=true&area_color=a855f7" width="49%" alt="Activity Graph" />
+<img src="assets/top_langs.svg" width="49%" alt="Top Languages"/>
+<img src="assets/activity_wave.svg" width="49%" alt="Contribution Activity"/>
 
 <br/><br/>
 
@@ -251,4 +251,5 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&animation=fadeIn" width="100%" />
 
 </div>
+
 
