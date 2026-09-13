@@ -1,0 +1,22 @@
+﻿<svg width="400" height="150" viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: transparent; stroke: #a855f7; stroke-width: 1; }
+      .title { font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 18px; font-weight: bold; fill: #a855f7; }
+      .desc { font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 13px; fill: #a0a0a0; }
+      .tech { font-family: 'Segoe UI', Ubuntu, sans-serif; font-size: 12px; font-weight: 500; fill: #a0a0a0; }
+    </style>
+  </defs>
+  <rect class="bg" x="1" y="1" width="398" height="148" rx="8" />
+  <svg x="20" y="18" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#a855f7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="10"/>
+    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+    <line x1="12" y1="17" x2="12.01" y2="17"/>
+  </svg>
+  <text class="title" x="52" y="36">SolveMint</text>
+  <text class="desc" x="20" y="65">An intelligent problem-solving platform that helps</text>
+  <text class="desc" x="20" y="85">developers tackle coding challenges with AI guidance.</text>
+  <circle cx="26" cy="120" r="6" fill="#3178c6" />
+  <text class="tech" x="40" y="124">TypeScript</text>
+  <text class="tech" x="120" y="124">AI · Problem Solving · Developer Tools</text>
+</svg>

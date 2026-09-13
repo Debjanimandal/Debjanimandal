@@ -1,120 +1,204 @@
-<div align="center">
+﻿<div align="center">
 
-# Hi there, I'm Debjani Mandal
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Debjani%20Mandal&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=AI%20%2F%20ML%20Engineer%20%7C%20Computer%20Vision%20%7C%20Deep%20Learning&descAlignY=58&descSize=16&animation=fadeIn" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2563EB&center=true&vCenter=true&width=600&lines=3rd+Year+AI%2FML+Student;Machine+Learning+Developer;Computer+Vision+Enthusiast" alt="Type SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=700&lines=4th+Year+AI%2FML+Student+%F0%9F%8E%93;Machine+Learning+Developer+%F0%9F%A4%96;Computer+Vision+Enthusiast+%F0%9F%91%81%EF%B8%8F;Building+Intelligent+Systems+%F0%9F%9A%80;Generative+AI+Explorer+%E2%9C%A8" alt="Typing SVG" />
 
-*Passionate about building intelligent systems and solving real-world problems with Artificial Intelligence.*
+<br/>
+
+[![GitHub followers](https://img.shields.io/github/followers/Debjanimandal?label=Followers&style=social)](https://github.com/Debjanimandal)
+[![Profile Views](https://komarev.com/ghpvc/?username=Debjanimandal&label=Profile%20Views&color=a855f7&style=flat)](https://github.com/Debjanimandal)
 
 </div>
 
 ---
 
-## <img src="https://api.iconify.design/lucide:user.svg?color=%232563EB" width="24" align="center"> About Me
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-- <img src="https://api.iconify.design/lucide:graduation-cap.svg?color=%23777777" width="16" align="center"> I am a **3rd year AI/ML student** deeply passionate about the mathematics and magic behind neural networks.
-- <img src="https://api.iconify.design/lucide:brain-circuit.svg?color=%23777777" width="16" align="center"> Actively exploring and building systems in **Artificial Intelligence, Machine Learning, and Computer Vision**.
-- <img src="https://api.iconify.design/lucide:globe.svg?color=%23777777" width="16" align="center"> Always enthusiastic about applying AI to **real-world applications** and contributing to the **open-source** community.
-- <img src="https://api.iconify.design/lucide:message-circle.svg?color=%23777777" width="16" align="center"> Ask me about: **Python, Neural Networks, Computer Vision, and Generative AI**
+## 🧠 About Me
 
----
+```python
+class DebjaniMandal:
+    def __init__(self):
+        self.name         = "Debjani Mandal"
+        self.role         = "4th Year AI/ML Student"
+        self.interests    = ["Machine Learning", "Computer Vision",
+                             "Deep Learning", "Generative AI", "LLMs"]
+        self.languages    = ["Python", "C++", "TypeScript", "C"]
+        self.ask_me_about = ["Neural Networks", "CV", "GenAI", "Open Source"]
+        self.fun_fact     = "I debug models the same way I debug life — one layer at a time 🧩"
 
-## <img src="https://api.iconify.design/lucide:cpu.svg?color=%232563EB" width="24" align="center"> Tech Stack & Tools
+    def say_hi(self):
+        print("Thanks for stopping by! Let's build something intelligent together 🚀")
 
-**Languages & Web**  
-<p>
-  <img src="https://skillicons.dev/icons?i=python,cpp,c,js,ts,html,css" alt="Languages" />
-</p>
+me = DebjaniMandal()
+me.say_hi()
+```
 
-**AI / ML / Data Science**  
-<p>
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,scikit,numpy,pandas,matplotlib" alt="AI/ML" />
-</p>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-**Tools & Platforms**  
-<p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,docker,linux,postman" alt="Tools" />
-</p>
-
----
-
-## <img src="https://api.iconify.design/lucide:folder.svg?color=%232563EB" width="24" align="center"> Featured Projects
+## 🛠️ Tech Stack & Arsenal
 
 <div align="center">
-  <a href="https://github.com/Debjanimandal/HireNexa">
-    <img src="./assets/hirenexa.svg" width="48%" alt="HireNexa" />
-  </a>
-  <a href="https://github.com/Debjanimandal/DigitVision">
-    <img src="./assets/digitvision.svg" width="48%" alt="DigitVision" />
-  </a>
-  <br/>
-  <a href="https://github.com/Debjanimandal/FairDeal">
-    <img src="./assets/fairdeal.svg" width="48%" alt="FairDeal" />
-  </a>
-  <a href="https://github.com/Debjanimandal/Devmode">
-    <img src="./assets/devmode.svg" width="48%" alt="Devmode" />
-  </a>
+
+**⚡ Languages & Web**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,cpp,c,js,ts,html,css&theme=dark" />
+</p>
+
+**🤖 AI / ML / Data Science**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv&theme=dark" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Matplotlib-3F4F75?style=for-the-badge&logo=matplotlib&logoColor=white" />
+</p>
+
+**🧰 Tools & Platforms**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,docker,linux,postman&theme=dark" />
+</p>
+
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## <img src="https://api.iconify.design/lucide:brain.svg?color=%232563EB" width="24" align="center"> AI & ML Interests & Currently Learning
+## 🚀 Featured Projects
+
+<div align="center">
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h4><img src="https://api.iconify.design/lucide:target.svg?color=%232563EB" width="20" align="center"> Core Interests</h4>
-      <ul>
-        <li><b>Machine Learning:</b> Building robust predictive models.</li>
-        <li><b>Deep Learning:</b> Neural architectures & pattern recognition.</li>
-        <li><b>Computer Vision:</b> Image processing & object detection.</li>
-        <li><b>Generative AI:</b> Exploring LLMs & synthesizing data.</li>
-        <li><b>Intelligent Systems:</b> Context-aware autonomous systems.</li>
-      </ul>
+    <td width="50%">
+      <h3 align="center">🧑‍💼 HireNexa</h3>
+      <div align="center">
+        <a href="https://github.com/Debjanimandal/HireNexa" target="_blank">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Debjanimandal&repo=HireNexa&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=a855f7&icon_color=a855f7&text_color=c0c0c0" width="100%" alt="HireNexa"/>
+        </a>
+        <br/><br/>
+        <p>
+          <img src="https://img.shields.io/badge/AI--Powered-Recruitment-a855f7?style=flat-square&logo=openai&logoColor=white"/>
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+        </p>
+      </div>
     </td>
-    <td width="50%" valign="top">
-      <h4><img src="https://api.iconify.design/lucide:book-open.svg?color=%232563EB" width="20" align="center"> Currently Learning</h4>
-      <ul>
-        <li>Advanced ML models and optimization techniques.</li>
-        <li>Cutting-edge AI systems and state-of-the-art architectures.</li>
-        <li>Deploying and building scalable AI applications.</li>
-        <li>Integrating AI models into modern web backends.</li>
-      </ul>
+    <td width="50%">
+      <h3 align="center">🔢 DigitVision</h3>
+      <div align="center">
+        <a href="https://github.com/Debjanimandal/DigitVision" target="_blank">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Debjanimandal&repo=DigitVision&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=a855f7&icon_color=a855f7&text_color=c0c0c0" width="100%" alt="DigitVision"/>
+        </a>
+        <br/><br/>
+        <p>
+          <img src="https://img.shields.io/badge/Computer-Vision-a855f7?style=flat-square&logo=opencv&logoColor=white"/>
+          <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">⚖️ FairDeal</h3>
+      <div align="center">
+        <a href="https://github.com/Debjanimandal/FairDeal" target="_blank">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Debjanimandal&repo=FairDeal&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=a855f7&icon_color=a855f7&text_color=c0c0c0" width="100%" alt="FairDeal"/>
+        </a>
+        <br/><br/>
+        <p>
+          <img src="https://img.shields.io/badge/ML--Powered-Pricing-a855f7?style=flat-square&logo=scikit-learn&logoColor=white"/>
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+        </p>
+      </div>
+    </td>
+    <td width="50%">
+      <h3 align="center">💡 SolveMint</h3>
+      <div align="center">
+        <a href="https://github.com/Debjanimandal/Solvemint" target="_blank">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=Debjanimandal&repo=Solvemint&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=a855f7&icon_color=a855f7&text_color=c0c0c0" width="100%" alt="SolveMint"/>
+        </a>
+        <br/><br/>
+        <p>
+          <img src="https://img.shields.io/badge/Problem-Solving-a855f7?style=flat-square&logo=lightning&logoColor=white"/>
+          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+        </p>
+      </div>
     </td>
   </tr>
 </table>
 
----
-
-## <img src="https://api.iconify.design/lucide:bar-chart-2.svg?color=%232563EB" width="24" align="center"> GitHub Statistics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Debjanimandal&show_icons=true&title_color=2563EB&icon_color=2563EB&text_color=777777&bg_color=0D1117&hide_border=true" width="48%" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Debjanimandal&theme=tokyonight&background=0D1117&hide_border=true" width="48%" alt="GitHub Streak" />
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Debjanimandal&layout=compact&title_color=2563EB&icon_color=2563EB&text_color=777777&bg_color=0D1117&hide_border=true" width="48%" alt="Top Languages" />
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## <img src="https://api.iconify.design/lucide:lightbulb.svg?color=%232563EB" width="24" align="center"> Thoughts
+## 🎯 AI & ML Focus Areas
+
+<div align="center">
+
+| 🔬 Core Interests | 📚 Currently Learning |
+|---|---|
+| 🤖 **Machine Learning** — Robust predictive models | 🧪 Advanced ML optimization techniques |
+| 🧠 **Deep Learning** — Neural architectures & patterns | 🏗️ State-of-the-art model architectures |
+| 👁️ **Computer Vision** — Image processing & detection | ☁️ Scalable AI deployment & MLOps |
+| ✨ **Generative AI** — LLMs & synthetic data | 🔗 Integrating AI into modern web backends |
+| 🌐 **Intelligent Systems** — Context-aware autonomous agents | 🎯 Reinforcement Learning fundamentals |
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+## 📊 GitHub Statistics
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Debjanimandal&show_icons=true&title_color=a855f7&icon_color=a855f7&text_color=c0c0c0&bg_color=0D1117&hide_border=true&rank_icon=github&include_all_commits=true" width="49%" alt="GitHub Stats" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Debjanimandal&background=0D1117&hide_border=true&ring=a855f7&fire=a855f7&currStreakLabel=a855f7&sideLabels=a855f7&dates=c0c0c0" width="49%" alt="GitHub Streak" />
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Debjanimandal&layout=compact&title_color=a855f7&text_color=c0c0c0&bg_color=0D1117&hide_border=true&langs_count=8" width="49%" alt="Top Languages" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Debjanimandal&bg_color=0D1117&color=a855f7&line=a855f7&point=ffffff&hide_border=true" width="49%" alt="Activity Graph" />
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+## 💬 Thoughts
+
+<div align="center">
 
 > *"AI is not going to replace humans, but humans with AI will replace humans without AI."*
 
-**Fun fact:** When I'm not training models and fine-tuning hyperparameters, I'm probably theorizing about Artificial General Intelligence or hunting for the perfect dataset!
+<br/>
 
----
+🧩 **Fun fact:** When I'm not training models or fine-tuning hyperparameters, I'm probably theorizing about Artificial General Intelligence or hunting for the perfect dataset!
 
-## <img src="https://api.iconify.design/lucide:link-2.svg?color=%232563EB" width="24" align="center"> Connect With Me
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+## 🌐 Connect With Me
 
 <div align="center">
-  <a href="https://github.com/Debjanimandal">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="https://www.linkedin.com/in/debjanimandal02/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
+<br/>
+
+<a href="https://github.com/Debjanimandal">
+  <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=a855f7&labelColor=0D1117" />
+</a>
+&nbsp;
+<a href="https://www.linkedin.com/in/debjanimandal02/">
+  <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=a855f7&labelColor=0D1117" />
+</a>
+&nbsp;
+<a href="mailto:debjanimandal556@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-0D1117?style=for-the-badge&logo=gmail&logoColor=a855f7&labelColor=0D1117" />
+</a>
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&animation=fadeIn" width="100%" />
+
 </div>
