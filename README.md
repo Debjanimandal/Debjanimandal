@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Debjani%20Mandal&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=AI%20%2F%20ML%20Engineer%20%7C%20Computer%20Vision%20%7C%20Deep%20Learning&descAlignY=58&descSize=16&animation=fadeIn" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=700&lines=4th+Year+AI%2FML+Student+%F0%9F%8E%93;Machine+Learning+Developer+%F0%9F%A4%96;Computer+Vision+Enthusiast+%F0%9F%91%81%EF%B8%8F;Building+Intelligent+Systems+%F0%9F%9A%80;Generative+AI+Explorer+%E2%9C%A8" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=700&lines=4th+Year+AI%2FML+Student;Machine+Learning+Developer;Computer+Vision+Enthusiast;Building+Intelligent+Systems;Generative+AI+Explorer" alt="Typing SVG" />
 
 <br/>
 
@@ -15,39 +15,80 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🧠 About Me
+## <img src="https://api.iconify.design/lucide:user-circle.svg?color=%23a855f7" width="28" align="center" /> &nbsp; About Me
 
-```python
-class DebjaniMandal:
-    def __init__(self):
-        self.name         = "Debjani Mandal"
-        self.role         = "4th Year AI/ML Student"
-        self.interests    = ["Machine Learning", "Computer Vision",
-                             "Deep Learning", "Generative AI", "LLMs"]
-        self.languages    = ["Python", "C++", "TypeScript", "C"]
-        self.ask_me_about = ["Neural Networks", "CV", "GenAI", "Open Source"]
-        self.fun_fact     = "I debug models the same way I debug life — one layer at a time 🧩"
-
-    def say_hi(self):
-        print("Thanks for stopping by! Let's build something intelligent together 🚀")
-
-me = DebjaniMandal()
-me.say_hi()
-```
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## 🛠️ Tech Stack & Arsenal
+<br/>
 
 <div align="center">
 
-**⚡ Languages & Web**
+<table>
+  <tr>
+    <td align="right" width="38%">
+      <img src="https://api.iconify.design/lucide:terminal.svg?color=%23a855f7" width="14" align="center" /> &nbsp;<b>debjani</b><code>@ai-terminal</code>
+      <br/><br/>
+      <img src="https://api.iconify.design/lucide:circle.svg?color=%23a855f7" width="10" align="center" />
+      <img src="https://api.iconify.design/lucide:circle.svg?color=%23302b63" width="10" align="center" />
+      <img src="https://api.iconify.design/lucide:circle.svg?color=%23302b63" width="10" align="center" />
+    </td>
+    <td width="62%">
+      <br/>
+      <table>
+        <tr>
+          <td><img src="https://api.iconify.design/lucide:user.svg?color=%23a855f7" width="14" align="center" /></td>
+          <td><b>Name</b></td>
+          <td>Debjani Mandal</td>
+        </tr>
+        <tr>
+          <td><img src="https://api.iconify.design/lucide:graduation-cap.svg?color=%23a855f7" width="14" align="center" /></td>
+          <td><b>Role</b></td>
+          <td>4th Year AI / ML Student</td>
+        </tr>
+        <tr>
+          <td><img src="https://api.iconify.design/lucide:cpu.svg?color=%23a855f7" width="14" align="center" /></td>
+          <td><b>Focus</b></td>
+          <td>Machine Learning &nbsp;&bull;&nbsp; Computer Vision &nbsp;&bull;&nbsp; GenAI</td>
+        </tr>
+        <tr>
+          <td><img src="https://api.iconify.design/lucide:code-2.svg?color=%23a855f7" width="14" align="center" /></td>
+          <td><b>Languages</b></td>
+          <td>Python &nbsp;&bull;&nbsp; C++ &nbsp;&bull;&nbsp; TypeScript &nbsp;&bull;&nbsp; C</td>
+        </tr>
+        <tr>
+          <td><img src="https://api.iconify.design/lucide:message-square.svg?color=%23a855f7" width="14" align="center" /></td>
+          <td><b>Ask Me</b></td>
+          <td>Neural Networks &nbsp;&bull;&nbsp; CV &nbsp;&bull;&nbsp; Open Source</td>
+        </tr>
+        <tr>
+          <td><img src="https://api.iconify.design/lucide:globe.svg?color=%23a855f7" width="14" align="center" /></td>
+          <td><b>Open To</b></td>
+          <td>Collaborations &nbsp;&bull;&nbsp; Research &nbsp;&bull;&nbsp; Internships</td>
+        </tr>
+        <tr>
+          <td><img src="https://api.iconify.design/lucide:zap.svg?color=%23a855f7" width="14" align="center" /></td>
+          <td><b>Fun Fact</b></td>
+          <td>I debug models the same way I debug life — one layer at a time</td>
+        </tr>
+      </table>
+      <br/>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+## <img src="https://api.iconify.design/lucide:layers.svg?color=%23a855f7" width="28" align="center" /> &nbsp; Tech Stack & Arsenal
+
+<div align="center">
+
+**Languages & Web**
 
 <p>
   <img src="https://skillicons.dev/icons?i=python,cpp,c,js,ts,html,css&theme=dark" />
 </p>
 
-**🤖 AI / ML / Data Science**
+**AI / ML / Data Science**
 
 <p>
   <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv&theme=dark" />
@@ -57,7 +98,7 @@ me.say_hi()
   <img src="https://img.shields.io/badge/Matplotlib-3F4F75?style=for-the-badge&logo=matplotlib&logoColor=white" />
 </p>
 
-**🧰 Tools & Platforms**
+**Tools & Platforms**
 
 <p>
   <img src="https://skillicons.dev/icons?i=git,github,vscode,docker,linux,postman&theme=dark" />
@@ -67,14 +108,14 @@ me.say_hi()
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🚀 Featured Projects
+## <img src="https://api.iconify.design/lucide:folder-open.svg?color=%23a855f7" width="28" align="center" /> &nbsp; Featured Projects
 
 <div align="center">
 
 <table>
   <tr>
     <td width="50%">
-      <h3 align="center">🧑‍💼 HireNexa</h3>
+      <h3 align="center">HireNexa</h3>
       <div align="center">
         <a href="https://github.com/Debjanimandal/HireNexa" target="_blank">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=Debjanimandal&repo=HireNexa&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=a855f7&icon_color=a855f7&text_color=c0c0c0" width="100%" alt="HireNexa"/>
@@ -87,7 +128,7 @@ me.say_hi()
       </div>
     </td>
     <td width="50%">
-      <h3 align="center">🔢 DigitVision</h3>
+      <h3 align="center">DigitVision</h3>
       <div align="center">
         <a href="https://github.com/Debjanimandal/DigitVision" target="_blank">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=Debjanimandal&repo=DigitVision&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=a855f7&icon_color=a855f7&text_color=c0c0c0" width="100%" alt="DigitVision"/>
@@ -102,7 +143,7 @@ me.say_hi()
   </tr>
   <tr>
     <td width="50%">
-      <h3 align="center">⚖️ FairDeal</h3>
+      <h3 align="center">FairDeal</h3>
       <div align="center">
         <a href="https://github.com/Debjanimandal/FairDeal" target="_blank">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=Debjanimandal&repo=FairDeal&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=a855f7&icon_color=a855f7&text_color=c0c0c0" width="100%" alt="FairDeal"/>
@@ -115,7 +156,7 @@ me.say_hi()
       </div>
     </td>
     <td width="50%">
-      <h3 align="center">💡 SolveMint</h3>
+      <h3 align="center">SolveMint</h3>
       <div align="center">
         <a href="https://github.com/Debjanimandal/Solvemint" target="_blank">
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=Debjanimandal&repo=Solvemint&theme=midnight-purple&hide_border=true&bg_color=0D1117&title_color=a855f7&icon_color=a855f7&text_color=c0c0c0" width="100%" alt="SolveMint"/>
@@ -134,23 +175,23 @@ me.say_hi()
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🎯 AI & ML Focus Areas
+## <img src="https://api.iconify.design/lucide:brain-circuit.svg?color=%23a855f7" width="28" align="center" /> &nbsp; AI & ML Focus Areas
 
 <div align="center">
 
-| 🔬 Core Interests | 📚 Currently Learning |
+| <img src="https://api.iconify.design/lucide:crosshair.svg?color=%23a855f7" width="16" align="center" /> Core Interests | <img src="https://api.iconify.design/lucide:book-open.svg?color=%23a855f7" width="16" align="center" /> Currently Learning |
 |---|---|
-| 🤖 **Machine Learning** — Robust predictive models | 🧪 Advanced ML optimization techniques |
-| 🧠 **Deep Learning** — Neural architectures & patterns | 🏗️ State-of-the-art model architectures |
-| 👁️ **Computer Vision** — Image processing & detection | ☁️ Scalable AI deployment & MLOps |
-| ✨ **Generative AI** — LLMs & synthetic data | 🔗 Integrating AI into modern web backends |
-| 🌐 **Intelligent Systems** — Context-aware autonomous agents | 🎯 Reinforcement Learning fundamentals |
+| **Machine Learning** &mdash; Robust predictive models | Advanced ML optimization techniques |
+| **Deep Learning** &mdash; Neural architectures & patterns | State-of-the-art model architectures |
+| **Computer Vision** &mdash; Image processing & detection | Scalable AI deployment & MLOps |
+| **Generative AI** &mdash; LLMs & synthetic data | Integrating AI into modern web backends |
+| **Intelligent Systems** &mdash; Context-aware autonomous agents | Reinforcement Learning fundamentals |
 
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 📊 GitHub Statistics
+## <img src="https://api.iconify.design/lucide:bar-chart-2.svg?color=%23a855f7" width="28" align="center" /> &nbsp; GitHub Statistics
 
 <div align="center">
 
@@ -166,7 +207,7 @@ me.say_hi()
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 💬 Thoughts
+## <img src="https://api.iconify.design/lucide:quote.svg?color=%23a855f7" width="28" align="center" /> &nbsp; Thoughts
 
 <div align="center">
 
@@ -174,13 +215,13 @@ me.say_hi()
 
 <br/>
 
-🧩 **Fun fact:** When I'm not training models or fine-tuning hyperparameters, I'm probably theorizing about Artificial General Intelligence or hunting for the perfect dataset!
+<img src="https://api.iconify.design/lucide:info.svg?color=%23a855f7" width="14" align="center" /> &nbsp; When I am not training models or fine-tuning hyperparameters, I am probably theorizing about Artificial General Intelligence or hunting for the perfect dataset.
 
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🌐 Connect With Me
+## <img src="https://api.iconify.design/lucide:link-2.svg?color=%23a855f7" width="28" align="center" /> &nbsp; Connect With Me
 
 <div align="center">
 <br/>
