@@ -205,7 +205,7 @@
 <br/>
 
 <img src="assets/top_langs.svg" width="49%" alt="Top Languages"/>
-<img src="assets/activity_wave.svg" width="49%" alt="Contribution Activity"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Debjanimandal&bg_color=0D1117&color=a855f7&line=a855f7&point=c084fc&hide_border=true&area=true&area_color=2d1b6b&radius=6" width="49%" alt="Contribution Activity"/>
 
 <br/><br/>
 
@@ -249,6 +249,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&animation=fadeIn" width="100%" />
 
 </div>
+
 
 
 
