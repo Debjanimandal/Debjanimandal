@@ -209,8 +209,6 @@
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/Debjanimandal/Debjanimandal/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake Animation"/>
-
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
@@ -251,5 +249,6 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&animation=fadeIn" width="100%" />
 
 </div>
+
 
 
