@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Debjani%20Mandal&fontSize=55&fontColor=ffffff&fontAlignY=38&desc=AI%20%2F%20ML%20Engineer%20%7C%20Computer%20Vision%20%7C%20Deep%20Learning&descAlignY=58&descSize=16&animation=fadeIn" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=700&lines=4th+Year+AI%2FML+Student;Machine+Learning+Developer;Computer+Vision+Enthusiast;Building+Intelligent+Systems;Generative+AI+Explorer" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=700&lines=4th+Year+AI%2FML+Student;Machine+Learning+Developer;Computer+Vision+Enthusiast;Building+Intelligent+Systems;Generative+AI+Explorer" alt="Type SVG" />
 
 <br/>
 
